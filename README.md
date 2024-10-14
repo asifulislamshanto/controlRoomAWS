@@ -20,3 +20,19 @@ This project contains a Python script that uses the AWS SDK for Python (Boto3) t
 
    ```bash
    git clone https://github.com/asifulislamshanto/aws-role-assumption-script.git
+
+## Example Output
+Enter your AWS Access Key: <your-access-key>
+Enter your AWS Secret Key: <your-secret-key>
+Enter your AWS Session Token (or press enter if not required): 
+
+Assumed role in account 123456789012:
+Access Key: <temporary-access-key>
+Secret Key: <temporary-secret-key>
+Session Token: <temporary-session-token>
+
+Assumed role in account 098765432109:
+Access Key: <temporary-access-key>
+Secret Key: <temporary-secret-key>
+Session Token: <temporary-session-token>
+
